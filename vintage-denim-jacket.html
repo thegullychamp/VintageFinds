@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vintage Denim Jacket | VintageFinds</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="preview.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="logo">VintageFinds</div>
+        <div class="nav-links">
+            <a href="../home.html">Home</a>
+            <a href="../home.html#about">About</a>
+            <a href="../home.html#collection">Collection</a>
+            <a href="../home.html#contact">Contact</a>
+            <a href="../cart.html" class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </a>
+        </div>
+    </nav>
+
+    <div class="product-details">
+        <div class="product-gallery">
+            <div class="main-image">
+                <img src="https://m.media-amazon.com/images/I/9155TL+MprL._SY741_.jpg" alt="Vintage Denim Jacket" id="mainImage">
+            </div>
+            <div class="thumbnail-gallery">
+                <img src="https://m.media-amazon.com/images/I/9155TL+MprL._SY741_.jpg" alt="Denim Jacket View 1" onclick="changeImage(this.src)">
+                <img src="https://m.media-amazon.com/images/I/91NZ3fjSInL._SY741_.jpg" alt="Denim Jacket View 2" onclick="changeImage(this.src)">
+                <img src="https://m.media-amazon.com/images/I/81mLg39ekdL._SY741_.jpg" alt="Denim Jacket View 3" onclick="changeImage(this.src)">
+            </div>
+        </div>
+        <div class="product-info-detailed">
+            <h1 class="product-title">Vintage Denim Jacket</h1>
+            <p class="price">₹4500.00</p>
+            <div class="eco-impact-detailed">
+                <h3>Environmental Impact</h3>
+                <div class="impact-stats">
+                    <div class="impact-item">
+                        <i class="fas fa-tint"></i>
+                        <span>Water Saved: 1,800 Liters</span>
+                    </div>
+                    <div class="impact-item">
+                        <i class="fas fa-leaf"></i>
+                        <span>CO2 Reduced: 4 kg</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product-description">
+                <h3>Description</h3>
+                <p>This authentic vintage denim jacket has been carefully sourced and restored. Perfect for any casual outfit, it features classic styling with modern sustainability. Each purchase helps reduce fashion waste and supports circular fashion.</p>
+            </div>
+            <div class="product-details-list">
+                <h3>Details</h3>
+                <ul>
+                    <li>Material: 100% Cotton Denim</li>
+                    <li>Condition: Excellent Vintage</li>
+                    <li>Size: Medium</li>
+                    <li>Brand: Vintage Collection</li>
+                </ul>
+            </div>
+            <div class="product-actions">
+                <button class="add-to-cart">
+                    <i class="fas fa-shopping-cart"></i>
+                    Add to Cart
+                </button>
+                <button class="buy-now">
+                    <i class="fas fa-bolt"></i>
+                    Buy Now
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="../script.js"></script>
+</body>
+</html> 
